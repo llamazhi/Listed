@@ -1,0 +1,37 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upper-left-corner {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.upper-right-corner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-name {
+  display: flex;
+  justify-content: center;
+  margin-left: 2vw;
+}
+
+.question-mark {
+  width: 5vw;
+  height: 5vw;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}

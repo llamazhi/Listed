@@ -1,0 +1,14 @@
+.default-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.default-options {
+  display: flex;
+}
+
+.default-bar {
+  display: flex;
+  justify-content: space-between;
+}
