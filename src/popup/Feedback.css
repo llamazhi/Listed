@@ -1,0 +1,47 @@
+.feedback-container {
+  align-items: flex-start;
+}
+
+.feedback-paragraph {
+  margin-left: 20px;
+}
+
+.feedback-selection {
+  margin-left: 15px;
+}
+
+.feedback-select-itmes {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.feedback-radio-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-radio-label {
+  margin-left: 10px;
+}
+
+.feedback-custom-reasons {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-custom-input {
+  width: 60%;
+}
+
+.feedback-submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.feedback-submit-btn {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  height: 7vh;
+}

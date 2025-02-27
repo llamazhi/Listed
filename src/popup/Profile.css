@@ -1,8 +1,13 @@
 .profile-container {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .profile-items {
-  display: flex;
+  margin-left: 15px;
+}
+
+.profile-items p {
+  font-size: medium
 }

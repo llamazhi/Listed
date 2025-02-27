@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './Profile.css';
+import './Feedback.css';
 
 export const Feedback = () => {
   const reasons = ["Technical Issue", "Feature Request", "General Inquiry", "Other"];
@@ -9,12 +9,12 @@ export const Feedback = () => {
     <div className='feeback-container'>
       <div className='feedback-paragraph'>
         <p> Having issues? </p>
-        <br />
         <p>Please let use know!</p>
       </div>
-      <div className='feeback-selection'>
+      <div className='feedback-selection'>
         {reasons.map((reason) => (
-            <label key={reason} className='feedback-option'>
+          <div className="feedback-select-itmes">
+            <div className="feedback-radio-btn">
               <input
                 type="radio"
                 name="feedback"
@@ -22,18 +22,26 @@ export const Feedback = () => {
                 checked={selectedReason === reason}
                 onChange={() => setSelectedReason(reason)}
               />
-              {reason}
-            </label>
-          ))}
+            </div>
+            <div className="feedback-radio-label">
+              <p>{reason}</p>
+            </div>
+          </div>
+        ))}
       </div>
       <div className='feedback-custom-reasons'>
         {selectedReason === "Other" && (
           <input
             type="text"
             placeholder="Please specify..."
-            className="custom-reason-input"
+            className="custom-custom-input"
           />
         )}
+      </div>
+      <div className="feedback-submit">
+        <button className="feedback-submit-btn">
+          Submit
+        </button>
       </div>
     </div>
   )

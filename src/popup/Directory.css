@@ -1,6 +1,14 @@
 .directory-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
+}
+
+.directory-items {
+  margin-left: 15px;
+}
+
+.directory-items p {
+  font-size: medium;
 }
 

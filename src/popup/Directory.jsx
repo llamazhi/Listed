@@ -6,10 +6,10 @@ export const Directory = () => {
       <div className='directory-items'>
         <p>Item A</p>
       </div>
-      <div className='default-items'>
+      <div className='directory-items'>
         <p>Item B</p>
       </div>
-      <div className='default-items'>
+      <div className='directory-items'>
         <p>Item C</p>
       </div>
     </div>
