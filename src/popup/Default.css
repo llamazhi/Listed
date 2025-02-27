@@ -6,9 +6,28 @@
 
 .default-options {
   display: flex;
+  margin: 15px 5px 15px 5px;
+  width: 86%;
 }
 
 .default-bar {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+}
+
+.default-field {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.default-value {
+  display: flex;
+  justify-content: flex-end;
+  width: 200px;
+}
+
+input, select {
+  padding: 5px;
+  width: 100%;
 }

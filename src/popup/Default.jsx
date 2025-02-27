@@ -5,20 +5,20 @@ export const Default = () => {
     <div className='default-container'>
       <div className='default-options'>
         <div className='default-bar'>
-          <p> SKU No. </p>
-          <input></input>
+          <div className='default-field'><p> SKU No. </p></div>
+          <div className='default-value'><input></input></div>
         </div>
       </div>
       <div className='default-options'>
         <div className='default-bar'>
-          <p> Brand </p>
-          <input></input>
+          <div className='default-field'><p> Name </p></div>
+          <div className='default-value'><input></input></div>
         </div>
       </div>
       <div className='default-options'>
         <div className='default-bar'>
-          <p>Category</p>
-          <select></select>
+          <div className='default-field'><p> Category </p></div>
+          <div className='default-value'><select></select></div>
         </div>
       </div>
     </div>
